@@ -1,0 +1,137 @@
+/* Đặt font tùy chỉnh */
+@font-face {
+    font-family: Misans-Medium;
+    src: url("../font/YL.otf");
+}
+
+/* Cài đặt chung */
+body {
+    -webkit-font-smoothing: antialiased;
+    font-family: Misans-Medium;
+    background-image: url("../images/backgroud.png");
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+/* Nội dung chính */
+.content {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.content p {
+    font-size: 150%;
+}
+
+/* Bộ đếm thời gian */
+.timer {
+    font-size: 160%;
+}
+
+.timer .line1,
+.timer .line2 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.timer b {
+    color: red;
+}
+
+/* Dòng phân cách */
+.divider {
+    width: 80%;
+    margin: 20px auto;
+    border: none;
+    border-top: 2px solid #ccc;
+}
+
+/* Phần Kỷ niệm */
+.memories {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #ffe4e1; /* Màu nền nhạt */
+    border-radius: 10px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.memories h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #ff1493;
+}
+
+#memory-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+#memory-list li {
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Thêm kỷ niệm */
+.add-memory {
+    margin-top: 15px;
+}
+
+#memory-input {
+    width: 80%;
+    height: 60px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
+
+/* Thông báo thêm thành công */
+#success-message {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+
+#success-message.visible {
+    opacity: 1;
+    visibility: visible;
+}
+
+#success-message.hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="vi-VN">
-
 <head>
     <link rel="icon" type="image/x-icon" href="static/images/favicon.ico" />
     <title>Vương Tiến Thành ❤️ Nguyễn Thu Hồng</title>
@@ -10,12 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" type="text/css" href="static/css/style.css" />
 </head>
-
 <body>
+    <!-- Nội dung chính -->
     <div class="content">
-        <p>Timer Love nèeee</p>
-        <img src="static/images/200w.webp" alt="一some gif~" />
+        <p>♥️ Timer Love nèeee ♥️</p>
         <p>Vương Tiến Thành ♥️ Nguyễn Thu Hồng</p>
+        <img src="static/images/200w.webp" alt="Một số hình ảnh gif đẹp" />
+        <p>Vương Tiến Thành ❤️ Nguyễn Thu Hồng</p>
         <p>chúng ta đã bên nhauu, thời gian đã cùng nhau đi qua...</p>
         <div class="timer">
             <div class="line1">
@@ -26,7 +26,17 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript" src="static/js/timer.js"></script>
-</body>
 
+    <!-- Block phát nhạc -->
+    <div class="content">
+        <p>🎵 Đang phát: <span id="currentSong">Chưa có bài nào</span></p>
+        <button id="playPauseButton" class="music-button">Phát</button>
+        <button id="nextButton" class="music-button">Tiếp</button>
+    </div>
+
+    <script type="text/javascript" src="static/js/timer.js"></script>
+    <script type="text/javascript" src="static/js/music.js"></script>
+    <script type="text/javascript" src="static/js/a.js"></script>
+    <script type="text/javascript" src="static/js/b.js"></script>
+</body>
 </html>

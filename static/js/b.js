@@ -1,6 +1,6 @@
 document.addEventListener("click", function (e) {
-    const colors = ["💜", "💙", "💚", "❤️", "💛"];
-    const heartCount = 1; // Số lượng trái tim mỗi lần click
+    const colors = ["💜", "💙", "💚", "❤️", "💛", "😼", "🐧", "🎀"];
+    const heartCount = 2; // Số lượng trái tim mỗi lần click
 
     for (let i = 0; i < heartCount; i++) {
         const heart = document.createElement("div");

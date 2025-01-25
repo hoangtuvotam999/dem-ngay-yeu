@@ -1,6 +1,22 @@
 @font-face {
     font-family: Misans-Medium;
-    src: url("../font/SVN-Greatlove.otf");
+    src: url("../font/YL.otf");
+}
+.timer {
+    font-size: 160%;
+    margin-top: 20px;
+}
+
+.timer .line1,
+.timer .line2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+timer b {
+    color: #e63946;
+    text-shadow: 0 0 5px rgba(230, 57, 70, 0.8);
 }
 
 /* contact: fb.me/vuong.tien.thanh.info */
@@ -133,7 +149,6 @@ img {
 }
 
 /* credit: CanhCutKhongbay */
-/* Vuong Tien Thanh ( fb.me/vuong.tien.thanh.info ) */
 .flying-heart {
     position: fixed;
     bottom: 0;
